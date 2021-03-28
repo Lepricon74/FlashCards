@@ -1,0 +1,134 @@
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.exe
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.deps.json
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.runtimeconfig.json
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.runtimeconfig.dev.json
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.pdb
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.Views.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.Views.pdb
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.AssemblyInfoInputs.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.AssemblyInfo.cs
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.csproj.CoreCompileInputs.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorAssemblyInfo.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorAssemblyInfo.cs
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.TagHelpers.input.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.TagHelpers.output.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorCoreGenerate.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorTargetAssemblyInfo.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorTargetAssemblyInfo.cs
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.Views.pdb
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.csproj.CopyComplete
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\staticwebassets\WebMVCFlashCards.StaticWebAssets.Manifest.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\staticwebassets\WebMVCFlashCards.StaticWebAssets.xml
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.dll
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.pdb
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.genruntimeconfig.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.csprojAssemblyReference.cache
+C:\Users\Александр Бутузов\Desktop\УРФУ 3курс\Practice\FlashCards\WebMVCFlashCards\bin\Release\netcoreapp3.1\web.config
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\web.config
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\appsettings.json
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.exe
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.deps.json
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.runtimeconfig.json
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.runtimeconfig.dev.json
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.pdb
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.Views.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\WebMVCFlashCards.Views.pdb
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\WebMVCFlashCards\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.csprojAssemblyReference.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.AssemblyInfoInputs.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.AssemblyInfo.cs
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.csproj.CoreCompileInputs.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.MvcApplicationPartsAssemblyInfo.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorAssemblyInfo.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorAssemblyInfo.cs
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.TagHelpers.input.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.TagHelpers.output.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorCoreGenerate.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorTargetAssemblyInfo.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.RazorTargetAssemblyInfo.cs
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.Views.pdb
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.csproj.CopyComplete
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\staticwebassets\WebMVCFlashCards.StaticWebAssets.Manifest.cache
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\staticwebassets\WebMVCFlashCards.StaticWebAssets.xml
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.dll
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.pdb
+C:\WebMVCFlashCards\obj\Release\netcoreapp3.1\WebMVCFlashCards.genruntimeconfig.cache
