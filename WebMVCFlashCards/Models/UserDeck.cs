@@ -10,7 +10,7 @@ namespace WebMVCFlashCards.Models
 {
     public class UserDeck
     {
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public int DeckId { get; set; }
       
         public string Title { get; set; }

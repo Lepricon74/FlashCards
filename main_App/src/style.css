@@ -93,6 +93,12 @@ main {
     margin-left: 10px;
 }
 
+.gear {
+    width: 37px;
+    height: 37px;
+    margin-left: 10px;
+}
+
 .header-main {
     position: relative;
     justify-content: space-between;

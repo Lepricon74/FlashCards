@@ -27,7 +27,7 @@ namespace WebMVCFlashCards.Controllers
         [HttpGet]
         public JsonResult DecksList()
         {
-            var userIdentityId = db.Users.FirstOrDefault(users => users.Login == User.Identity.Name).Id;
+            var userIdentityId = db.Users.FirstOrDefault(users => users.Email == User.Identity.Name).Id;
             var resultList = DBInteraction.GetUserDecks(userIdentityId, db);
             return resultList.Count == 0 ? new JsonResult("Decks not found") : new JsonResult(resultList);          
         }
@@ -36,7 +36,7 @@ namespace WebMVCFlashCards.Controllers
         public JsonResult NewDeck()
         {      
             var stream = new StreamReader(Request.Body);
-            var userIdentityId = db.Users.FirstOrDefault(users => users.Login == User.Identity.Name).Id;
+            var userIdentityId = db.Users.FirstOrDefault(users => users.Email == User.Identity.Name).Id;
             var body = stream.ReadToEndAsync().Result;
             UserDeckAndCards newUserDeck = JsonConvert.DeserializeObject<UserDeckAndCards>(body);
             return new JsonResult(DBInteraction.StatusCode[DBInteraction.AddDeck(newUserDeck,db,userIdentityId)]);  
@@ -45,7 +45,7 @@ namespace WebMVCFlashCards.Controllers
         [HttpDelete]
         public JsonResult RemoveDeck()
         {
-            var userIdentityId = db.Users.FirstOrDefault(users => users.Login == User.Identity.Name).Id;
+            var userIdentityId = db.Users.FirstOrDefault(users => users.Email == User.Identity.Name).Id;
             return new JsonResult(DBInteraction.StatusCode[DBInteraction.RemoveDeck(userIdentityId, Request.Query["deckid"].ToString(),db)]);  
         }
 
@@ -55,7 +55,7 @@ namespace WebMVCFlashCards.Controllers
             var stream = new StreamReader(Request.Body);
             var body = stream.ReadToEndAsync().Result;
             UserDeckAndCards newUserDeck = JsonConvert.DeserializeObject<UserDeckAndCards>(body);
-            var userIdentityId = db.Users.FirstOrDefault(users => users.Login == User.Identity.Name).Id;
+            var userIdentityId = db.Users.FirstOrDefault(users => users.Email == User.Identity.Name).Id;
             var removeStatus = DBInteraction.RemoveDeck(userIdentityId, newUserDeck.Deck[0].DeckId.ToString(), db);
             return new JsonResult(removeStatus == 0 ? DBInteraction.StatusCode[DBInteraction.AddDeck(newUserDeck, db,userIdentityId)] : DBInteraction.StatusCode[removeStatus]);
         }
@@ -65,7 +65,7 @@ namespace WebMVCFlashCards.Controllers
         {
             var stream = new StreamReader(Request.Body);
             var body = stream.ReadToEndAsync().Result;
-            var userIdentityId = db.Users.FirstOrDefault(users => users.Login == User.Identity.Name).Id;
+            var userIdentityId = db.Users.FirstOrDefault(users => users.Email == User.Identity.Name).Id;
             UserDeck updateDeck = JsonConvert.DeserializeObject<UserDeck>(body);
             UserDeck userdbdeck = DBInteraction.GetUserDeck(userIdentityId, updateDeck.DeckId, db)[0];
             if (userdbdeck == null) return new JsonResult("Such a deck does not exist");

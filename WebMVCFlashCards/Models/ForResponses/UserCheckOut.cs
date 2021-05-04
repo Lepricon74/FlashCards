@@ -8,8 +8,8 @@ namespace WebMVCFlashCards.Models.ForResponses
     public class UserCheckOut
     {
         public bool IsAuthenticated { get; set; }
-
-        public  int UserId { get; set; }
+        public bool IsAdmin { get; set; }
+        public  string UserId { get; set; }
         
         public string UserName { get; set; }
 

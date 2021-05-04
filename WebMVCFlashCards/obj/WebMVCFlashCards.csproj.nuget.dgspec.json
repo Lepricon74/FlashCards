@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WebMVCFlashCards\\WebMVCFlashCards.csproj": {}
+    "D:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj": {}
   },
   "projects": {
-    "C:\\WebMVCFlashCards\\WebMVCFlashCards.csproj": {
+    "D:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
+        "projectUniqueName": "D:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
         "projectName": "WebMVCFlashCards",
-        "projectPath": "C:\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
+        "projectPath": "D:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
         "packagesPath": "C:\\Users\\Александр Бутузов\\.nuget\\packages\\",
-        "outputPath": "C:\\WebMVCFlashCards\\obj\\",
+        "outputPath": "D:\\FlashCards\\WebMVCFlashCards\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,15 +21,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -40,12 +40,30 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

@@ -26,7 +26,7 @@ namespace WebMVCFlashCards.Controllers
         [HttpGet]
         public JsonResult GetUserDeckAndCardsByDeckId()
         {
-            var userIdentityId = db.Users.FirstOrDefault(users => users.Login == User.Identity.Name).Id;
+            var userIdentityId = db.Users.FirstOrDefault(users => users.Email == User.Identity.Name).Id;
             if ((Int32.TryParse(Request.Query["deckid"].ToString(), out int userDeckId) == false) || (userDeckId < 1)) return new JsonResult("Incorrect Deck Id");
             var result = DBInteraction.GetUserDeckAndCards(userIdentityId, userDeckId, db);
             return result.Deck.Count == 0 ? new JsonResult("Deck Not Fount") : new JsonResult(result);

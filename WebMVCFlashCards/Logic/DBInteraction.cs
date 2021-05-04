@@ -12,7 +12,7 @@ namespace WebMVCFlashCards.Logic
     {
         public static readonly string[] StatusCode = {"Success", "Incorrect Deck Id", "Such a deck does not exist", "This user already has a deck with this id"};
         
-        public static int AddDeck(UserDeckAndCards newUserDeck, FlashCardsContext db, int userIdentityId)
+        public static int AddDeck(UserDeckAndCards newUserDeck, FlashCardsContext db, string userIdentityId)
         {            
             newUserDeck.Deck[0].UserId = userIdentityId;
             foreach(var card in newUserDeck.Cards)
@@ -28,7 +28,7 @@ namespace WebMVCFlashCards.Logic
             db.SaveChanges();
             return 0;
         }
-        public static int RemoveDeck(int userId, string strUserDeckId, FlashCardsContext db)
+        public static int RemoveDeck(string userId, string strUserDeckId, FlashCardsContext db)
         {                    
             if ((Int32.TryParse(strUserDeckId, out int userDeckId) == false) || (userDeckId < 1)) return 1;
             var result = GetUserDeckAndCards(userId, userDeckId, db);
@@ -39,7 +39,7 @@ namespace WebMVCFlashCards.Logic
             return 0;
         }    
 
-        public static UserDeckAndCards GetUserDeckAndCards(int userId, int userDeckId, FlashCardsContext db)
+        public static UserDeckAndCards GetUserDeckAndCards(string userId, int userDeckId, FlashCardsContext db)
         {
             var result = new UserDeckAndCards();
             result.Deck = GetUserDeck(userId, userDeckId, db);
@@ -49,17 +49,17 @@ namespace WebMVCFlashCards.Logic
 
         
 
-        public static List<UserDeck> GetUserDecks(int userId, FlashCardsContext db)
+        public static List<UserDeck> GetUserDecks(string userId, FlashCardsContext db)
         { 
             return db.UsersDecks.Where(usersDecks => usersDecks.UserId == userId).ToList();                     
         }
 
-        public static List<UserDeck> GetUserDeck(int userId,int userDeckId, FlashCardsContext db)
+        public static List<UserDeck> GetUserDeck(string userId,int userDeckId, FlashCardsContext db)
         {
             return db.UsersDecks.Where(usersDecks => (usersDecks.UserId == userId) && (usersDecks.DeckId == userDeckId)).ToList();
         }
 
-        public static List<UserCard> GetUserCards(int userId, int userDeckId, FlashCardsContext db)
+        public static List<UserCard> GetUserCards(string userId, int userDeckId, FlashCardsContext db)
         {
             return db.UsersCards.Where(usersCards => (usersCards.UserId == userId) && (usersCards.DeckId == userDeckId)).ToList();
         }

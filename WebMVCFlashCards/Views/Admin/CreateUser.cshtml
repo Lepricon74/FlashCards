@@ -1,0 +1,27 @@
+﻿@model WebMVCFlashCards.ViewModels.CreateUserViewModel
+@{
+	ViewBag.Title = "Добавление пользователя";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" />
+<form asp-action="CreateUser" asp-controller="Admin">
+	<div asp-validation-summary="All" class="text-danger"></div>
+	<div class="form-group">
+		<label asp-for="Email" class="control-label">Email</label>
+		<input type="text" asp-for="Email" class="form-control" />
+	</div>
+	<div class="form-group">
+		<label asp-for="Password" class="control-label">Пароль</label>
+		<input type="password" asp-for="Password" class="form-control" />
+	</div>
+	<div class="form-group">
+		<label asp-for="Language" class="control-label">Язык</label>
+		<select class="form-control" type="text" asp-for="Language">
+			<option>English</option>
+			<option>French</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<input type="submit" value="Добавить" class="btn btn-outline-secondary" />
+	</div>
+</form>

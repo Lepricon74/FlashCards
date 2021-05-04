@@ -34,7 +34,9 @@ const store = createStore(rootReducer, applyMiddleware(customMiddleware,logger))
 class App extends React.Component {
     constructor(props){
         super(props);
-        this.state={auth:false};
+        this.state={
+            auth:false,
+            role:false};
         // fetch('/account/checkout').
         // then(answer=>answer.json()).
         // then(auth=>this.auth=auth.isAuthenticated);
@@ -54,7 +56,10 @@ class App extends React.Component {
         await fetch('/bdinitialization ');
         this.authorization=await (await fetch('/account/checkout')).json();
         this.auth= await this.authorization.isAuthenticated;
+        this.role= await this.authorization.isAdmin;
+        debugger;
         await this.setState({auth:this.auth});
+        await this.setState({role:this.role});
         await store.dispatch(setAuthorization(this.auth));
         //await console.log(this.authorization.userLanguageId);
         this.StandardDecksArr = await (await fetch(`/basicdecks?langid=${this.authorization.userLanguageId}`)).json();
@@ -105,11 +110,14 @@ class App extends React.Component {
                             </div>}
                             {this.state.auth || <div className="link regist">
                                 <a href="/account/register">Регистрация</a>
-                            </div>}
+                            </div>}                          
                             {this.state.auth && <span>{this.authorization.userName}</span>}
                             {this.state.auth && <div className="link logout">
                                 <a href="/account/logout">Выход</a>
-                            </div>}
+                            </div>} 
+                            {this.state.role && <div >
+                                <a href="/admin"><img className="link gear" src="/src/img/gear.ico"/></a>
+                            </div>}                                                                        
                         </div>
                     </div>
                 </header>

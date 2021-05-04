@@ -11,6 +11,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WebMVCFlashCards.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Identity.UI;
 
 namespace WebMVCFlashCards
 {
@@ -28,13 +31,25 @@ namespace WebMVCFlashCards
         {
             string connection = Configuration.GetConnectionString("LocalConnection");
             services.AddDbContext<FlashCardsContext>(options => options.UseSqlServer(connection));
+            services.AddIdentity<User, IdentityRole>(options => {
+               //options.SignIn.RequireConfirmedAccount = true;
+                options.Password.RequiredLength = 5;   // минимальная длина
+                options.Password.RequireNonAlphanumeric = false;   // требуются ли не алфавитно-цифровые символы
+                options.Password.RequireLowercase = false; // требуются ли символы в нижнем регистре
+                options.Password.RequireUppercase = false; // требуются ли символы в верхнем регистре
+                options.Password.RequireDigit = false; // требуются ли цифры
+                options.User.RequireUniqueEmail = false;
+                options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyz"; // допустимые символы
+            }).AddEntityFrameworkStores <FlashCardsContext>();
+            services.AddRazorPages();
+            services.AddAuthentication().AddGoogle(options =>
+            {
+                //IConfigurationSection googleAuthNSection = Configuration.GetSection("Authentication:Google");
 
-            // установка конфигурации подключения
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options => //CookieAuthenticationOptions
-                {
-                    options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
-                });
+                options.ClientId = "525960053225-gd2g1f2bh1qjoao527mracp1lgf302hj.apps.googleusercontent.com";
+                options.ClientSecret = "iRs4hQ646v9dnvDJFEEoFWGj";
+            });
+
             services.AddControllersWithViews();
             services.AddControllers();
         }
@@ -50,6 +65,8 @@ namespace WebMVCFlashCards
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseEndpoints(endpoints =>
             {
