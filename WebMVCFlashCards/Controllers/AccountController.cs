@@ -100,9 +100,9 @@ namespace WebMVCFlashCards.Controllers
             return Redirect("~/");
         }
 
-
-        public IActionResult Register()
+        public async Task<IActionResult> Register()
         {
+            ViewBag.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             return View();
         }
         [HttpPost]
@@ -129,6 +129,55 @@ namespace WebMVCFlashCards.Controllers
                 }
             }
             return View(model);
+        }
+
+        public IActionResult GoogleLogin()
+        {
+            //Формируем адрес но который Google будет возвращать результат авторизоции
+            string redirectUrl = Url.Action("GoogleResponse", "Account");
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties("Google", redirectUrl);
+            //Возвращаем 'окно входа' Google
+            return new ChallengeResult("Google", properties);
+        }
+
+        public async Task<IActionResult> GoogleResponse()
+        {
+            //Получаем данные авторизации
+            ExternalLoginInfo info = await _signInManager.GetExternalLoginInfoAsync();
+            if (info == null) return RedirectToAction(nameof(Login));
+            //Пытаемся авторизовать пользователя в нашей системе
+            //ProviderKey связывает пользователя Google с таблицей пользователей
+            var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, false);
+            string[] userInfo = { info.Principal.FindFirst(ClaimTypes.Name).Value, info.Principal.FindFirst(ClaimTypes.Email).Value };
+            if (result.Succeeded)
+                return Redirect("~/");
+            else
+            {              
+                //Если вход не удался - создаем нового пользователя
+                User user = new User
+                {
+                    Email = info.Principal.FindFirst(ClaimTypes.Email).Value,
+                    UserName = info.Principal.FindFirst(ClaimTypes.Email).Value,
+                    LanguageId = 1
+                };
+
+                IdentityResult identResult = await _userManager.CreateAsync(user);
+                if (identResult.Succeeded)
+                {
+                    identResult = await _userManager.AddLoginAsync(user, info);
+                    if (identResult.Succeeded)
+                    {
+                        await _signInManager.SignInAsync(user, false);
+                        return Redirect("~/");
+                    }
+                }
+                return AccessDenied();
+            }
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }

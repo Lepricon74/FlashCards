@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj": {}
+    "E:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj": {}
   },
   "projects": {
-    "D:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj": {
+    "E:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
+        "projectUniqueName": "E:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
         "projectName": "WebMVCFlashCards",
-        "projectPath": "D:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
-        "packagesPath": "C:\\Users\\Александр Бутузов\\.nuget\\packages\\",
-        "outputPath": "D:\\FlashCards\\WebMVCFlashCards\\obj\\",
+        "projectPath": "E:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
+        "packagesPath": "C:\\Users\\steam\\.nuget\\packages\\",
+        "outputPath": "E:\\FlashCards\\WebMVCFlashCards\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Александр Бутузов\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,21 +46,25 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.5, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.5, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.5, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.5, )"
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -88,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
