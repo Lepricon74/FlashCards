@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UERjvgH8xNtkVz37r53FTkaqphzrh9c+ZYWGevrUYrmZeJpQtm7KgHi2IHAq3jst2/QT+dhKD4M1MPn04khpCA==",
+  "dgSpecHash": "UA8xVqP7VDyrD0X4fLzRX4MVTz+AN0Xy+Qr7eOs4Pga+zHOOSojYUkTn8M9Qpq+2xygC1IQZWbcoK8fPQhVb/g==",
   "success": true,
   "projectFilePath": "E:\\FlashCards\\WebMVCFlashCards\\WebMVCFlashCards.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\steam\\.nuget\\packages\\aspnet.security.oauth.vkontakte\\5.0.4\\aspnet.security.oauth.vkontakte.5.0.4.nupkg.sha512",
     "C:\\Users\\steam\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\steam\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.5\\microsoft.aspnetcore.authentication.google.5.0.5.nupkg.sha512",
     "C:\\Users\\steam\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",

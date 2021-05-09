@@ -175,6 +175,53 @@ namespace WebMVCFlashCards.Controllers
             }
         }
 
+        public IActionResult VkontakteLogin()
+        {
+            //Формируем адрес но который VK будет возвращать результат авторизоции
+            string redirectUrl = Url.Action("VkontakteResponse", "Account");
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties("Vkontakte", redirectUrl);
+            //Возвращаем 'окно входа' VK
+            return new ChallengeResult("Vkontakte", properties);
+        }
+
+        public async Task<IActionResult> VkontakteResponse()
+        {
+            //Получаем данные авторизации
+            ExternalLoginInfo info = await _signInManager.GetExternalLoginInfoAsync();
+            if (info == null) return RedirectToAction(nameof(Login));
+            //Пытаемся авторизовать пользователя в нашей системе
+            //ProviderKey связывает пользователя Google с таблицей пользователей
+            var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, false);
+            //string userName = info.Principal.FindFirst(ClaimTypes.Name).Value;
+            string userName = info.Principal.FindFirst(ClaimTypes.GivenName).Value;
+            string userSurName = info.Principal.FindFirst(ClaimTypes.Surname).Value;
+            //string userEmail = info.Principal.FindFirst(ClaimTypes.Email).Value;
+            if (result.Succeeded)
+                return Redirect("~/");
+            else
+            {
+                //Если вход не удался - создаем нового пользователя
+                User user = new User
+                {
+                    Email = info.Principal.FindFirst(ClaimTypes.GivenName).Value + info.Principal.FindFirst(ClaimTypes.Surname).Value,
+                    UserName = info.Principal.FindFirst(ClaimTypes.GivenName).Value +info.Principal.FindFirst(ClaimTypes.Surname).Value,
+                    LanguageId = 1
+                };
+
+                IdentityResult identResult = await _userManager.CreateAsync(user);
+                if (identResult.Succeeded)
+                {
+                    identResult = await _userManager.AddLoginAsync(user, info);
+                    if (identResult.Succeeded)
+                    {
+                        await _signInManager.SignInAsync(user, false);
+                        return Redirect("~/");
+                    }
+                }
+                return AccessDenied();
+            }
+        }
+
         public IActionResult AccessDenied()
         {
             return View();

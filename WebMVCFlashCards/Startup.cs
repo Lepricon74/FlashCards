@@ -14,6 +14,7 @@ using WebMVCFlashCards.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity.UI;
+using AspNet.Security.OAuth.Vkontakte;
 
 namespace WebMVCFlashCards
 {
@@ -39,13 +40,18 @@ namespace WebMVCFlashCards
                 options.Password.RequireUppercase = false; // требуются ли символы в верхнем регистре
                 options.Password.RequireDigit = false; // требуются ли цифры
                 options.User.RequireUniqueEmail = false;
-                options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyz@.1234567890"; // допустимые символы
+                options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyz@.1234567890 ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // допустимые символы
             }).AddEntityFrameworkStores <FlashCardsContext>();
             services.AddRazorPages();
             services.AddAuthentication().AddGoogle(options =>
             {             
                 options.ClientId = "525960053225-gd2g1f2bh1qjoao527mracp1lgf302hj.apps.googleusercontent.com";
                 options.ClientSecret = "iRs4hQ646v9dnvDJFEEoFWGj";
+            }).AddVkontakte(options =>
+            {
+                options.ClientId = "7850272";
+                options.ClientSecret = "8zKgzfnjan2ivJu8wwgo";
+                options.Scope.Add("email");
             });
 
             services.AddControllersWithViews();
